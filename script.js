@@ -100,33 +100,33 @@
 
 // as(a);
 // 9 misol
-let topee = document.querySelector(".titless");
-let input1 = document.querySelector("#input1");
-let input2 = document.querySelector("#input2");
-let plus = document.querySelector("#plus");
-let minus = document.querySelector("#minus");
-let kopaytir = document.querySelector("#kop");
-let bol = document.querySelector("#bol");
-let tozala = document.querySelector("#tozala");
-let nub1 = document.querySelector(".h2");
-plus.addEventListener('click', () => {
-    return topee.textContent = input1.value * 1 + input2.value * 1;
-})
-minus.addEventListener('click', () => {
-    return topee.textContent = input1.value * 1 - input2.value * 1;
-})
-kopaytir.addEventListener('click', () => {
-    return topee.textContent = input1.value * 1 * input2.value * 1;
-})
-bol.addEventListener('click', () => {
-    return topee.textContent = input1.value * 1 / input2.value * 1;
-})
-tozala.addEventListener('click', () => {
+// let topee = document.querySelector(".titless");
+// let input1 = document.querySelector("#input1");
+// let input2 = document.querySelector("#input2");
+// let plus = document.querySelector("#plus");
+// let minus = document.querySelector("#minus");
+// let kopaytir = document.querySelector("#kop");
+// let bol = document.querySelector("#bol");
+// let tozala = document.querySelector("#tozala");
+// let nub1 = document.querySelector(".h2");
+// plus.addEventListener('click', () => {
+//     return topee.textContent = input1.value * 1 + input2.value * 1;
+// })
+// minus.addEventListener('click', () => {
+//     return topee.textContent = input1.value * 1 - input2.value * 1;
+// })
+// kopaytir.addEventListener('click', () => {
+//     return topee.textContent = input1.value * 1 * input2.value * 1;
+// })
+// bol.addEventListener('click', () => {
+//     return topee.textContent = input1.value * 1 / input2.value * 1;
+// })
+// tozala.addEventListener('click', () => {
 
-    return (
-        topee.textContent = "",
-        input1.value = "",
-        input2.value = ""
-    )
+//     return (
+//         topee.textContent = "",
+//         input1.value = "",
+//         input2.value = ""
+//     )
 
-})
+// })
